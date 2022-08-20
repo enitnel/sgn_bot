@@ -15,7 +15,7 @@ public class CommandManager extends ListenerAdapter {
     @Override
     public void onSlashCommandInteraction(@NotNull SlashCommandInteractionEvent event) {
         String command = event.getName();
-        if (command.equals("запрос")){
+        if (command.equals("триггеры")){
             String userTag = event.getUser().getAsTag();
             event.reply("запрос обработан" + userTag).queue();
         }
@@ -24,14 +24,7 @@ public class CommandManager extends ListenerAdapter {
     @Override
     public void onGuildReady(@NotNull GuildReadyEvent event) {
         List<CommandData> commandData = new ArrayList<>();
-        commandData.add(Commands.slash("запрос", "тестовый запрос"));
-        event.getGuild().updateCommands().addCommands(commandData).queue();
-    }
-
-    @Override
-    public void onGuildJoin(@NotNull GuildJoinEvent event) {
-        List<CommandData> commandData = new ArrayList<>();
-        commandData.add(Commands.slash("запрос", "тестовый запрос"));
+        commandData.add(Commands.slash("триггеры", "отправить триггер"));
         event.getGuild().updateCommands().addCommands(commandData).queue();
     }
 }

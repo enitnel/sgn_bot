@@ -38,7 +38,7 @@ public class SgnBot {
 
         // Setting a bot
         builder.setStatus(OnlineStatus.ONLINE);
-        builder.setActivity(Activity.watching(" и следит"));
+        builder.setActivity(Activity.watching(" и балдеет"));
         builder.enableIntents(GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES);
         //Cache
         builder.setMemberCachePolicy(MemberCachePolicy.ALL);
@@ -47,7 +47,7 @@ public class SgnBot {
         shardManager = builder.build();
 
         //Register listeners
-        shardManager.addEventListener(new EventListener(), new CommandManager());
+        shardManager.addEventListener(new EventListener());
     }
 
     /**
