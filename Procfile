@@ -1,0 +1,1 @@
+Worker: Java src/main/java/com/sgn/sgn_bot/SgnBot.java
