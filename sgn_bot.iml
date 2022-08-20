@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -29,13 +29,5 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.2" level="project" />
     <orderEntry type="library" name="Maven: io.github.cdimascio:dotenv-java:2.2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:18-ea+6" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:18-ea+6" level="project" />
   </component>
 </module>
